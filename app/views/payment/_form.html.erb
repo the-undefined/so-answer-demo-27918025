@@ -1,0 +1,5 @@
+<%= form_tag orders_path, method: 'post' do %>
+  <%=  hidden_field_tag :post_id, @post.id %>
+  <div id="dropin"></div>
+  <input type="submit" value="Pay">
+<% end %>
